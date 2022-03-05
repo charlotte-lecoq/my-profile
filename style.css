@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Yrsa:wght@300&display=swap'); 
+
+body{
+	background-color: #FEF5ED;
+	font-family: 'Yrsa', serif;
+	text-align: justify;
+}
+
+p{
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+	color: #464E2E ;
+	font-weight: bolder;
+}
+h2{
+	color: #ACB992 ;
+}
+p{
+	color: #362706
+}
+
+/* Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media(max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.box-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+		border-radius: 50%;
+}
+#intro img{
+	margin-bottom: 15px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+	color: rgba(70, 78, 46, 0.8);
+	transition: 0.3s;
+}
+.list-inline i:hover{
+	color: rgba(70, 78, 46, 1.0);
+}
+
+#titre-reseaux{
+	padding-bottom: 15px;
+}
